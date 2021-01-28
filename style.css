@@ -1,0 +1,528 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background:linear-gradient(to right, rgb(20,200,200),rgb(159, 28, 192));
+    margin-top:0px ;
+    padding: 10px;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+}
+
+header h1{
+    font-family: arial;
+    text-shadow: 0 5px 10px rgba(0,0,0,0.3);
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    width: 110%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: verdana;
+    padding:10px 15px;
+    font-size: 15px;
+    transition: .4s;
+}
+
+nav li a:hover{
+    background: #ffffff;
+    color: #000000;
+    border-radius:6px ;
+}
+
+.brand{
+    background: rgb(240,240,240);
+    font-family:tahoma ;
+    color: rgb(60,60,60);
+    padding: 100px 20px;
+    margin-top:20px ;
+    text-align: center;
+}
+
+.brand h1{
+    font-size: 50px;
+}
+
+.brand-btn{
+    background:linear-gradient(to right, rgb(20,200,200),rgb(159, 28, 192));
+    padding:10px 25px;
+    border-radius: 24px;
+    border: none;
+    color: #ffffff;
+    font-size: 20px;
+    transition: .4s;
+    text-decoration: none;
+    margin-top: 50px;
+}
+
+.brand-btn:hover{
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+}
+
+.welcomeNote{
+    color: rgb(60,60,60);
+    width: 70%;
+    margin: 60px auto;
+    text-align: justify;
+    opacity: 0;
+    transition: 1s;
+    transform: translateY(30px);
+}
+
+.welcomeNoteAppear{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.mission{
+    opacity: 0;
+    transition: 1s;
+    transform: translateY(30px);
+}
+
+.missionAppear{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+.vision{
+    opacity: 0;
+    transition: 1s;
+    transform: translateY(30px);
+}
+
+.visionAppear{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+.missionImg{
+    opacity: 0;
+    transition: 1s;
+    margin-right: 100%;
+}
+
+.missionImgAppear{
+    opacity: 1;
+    margin-right: 0;
+}
+
+
+.visionImg{
+    opacity: 0;
+    transition: 1s;
+    margin-left: -100%;
+}
+
+.visionImgAppear{
+    opacity: 1;
+    margin-left: 0;
+}
+
+.welcomeNote h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: verdana;
+}
+
+.welcomeNote p{
+    font-size: 20px;
+    color: rgb(120,120,120);
+    word-spacing: 0.2cm;
+}
+
+.line{
+    width: 200px;
+    height: 3px;
+    border-radius: 10px;
+    background:linear-gradient(to right, rgb(20,200,200),rgb(159, 28, 192));
+    margin: 0px auto;
+}
+
+.target{
+    width: 90%;
+    margin: 100px auto 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.target-content{
+    width: 50%;
+    color: rgb(120,120,120);
+    padding: 20px;
+}
+
+.target-content h1{
+    text-align: center;
+    font-size: 35px;
+    color: rgb(60,60,60);
+}
+
+.target-content p{
+    font-size: 20px;
+    text-align: justify;
+    word-spacing: 0.1cm;
+    line-height: .9cm;
+}
+
+.line-short{
+    width: 70px;
+}
+
+.target img{
+    width: 50%;
+    height: auto;
+}
+
+.fa{
+    color:rgb(20,200,200);
+}
+
+.reason{
+    width: 100%;
+    background: rgb(240,240,240);
+    padding: 50px 40px;
+}
+
+.reason-con{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.reason-con img{
+    width: 50%;
+    height: auto;
+}
+
+.reason h1{
+    text-align: center;
+    color: rgb(20,200,200);
+    font-family: verdana;
+}
+
+.reason-container{
+    width: 40%;
+    margin-top: 50px;
+}
+
+.reason-container  .content{
+    margin-top: 20px;
+}
+.reason-container  .content h3{
+    display: inline;
+    font-size: 21px;
+    color: rgb(159, 28, 192);
+    font-family: Tahoma;
+}
+.reason-container .content p{
+    display: inline;
+    font-family: verdana;
+    font-size: 14px;
+    color: rgb(120,120,120);
+    text-align: justify;
+}
+
+.board h1{
+    font-size: 30px;
+}
+
+.board{
+    width: 40%;
+    margin: 20px auto;
+}
+
+.auth{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px auto;
+}
+
+.stream{
+    width: 100%;
+    margin-top: 200px;
+    padding: 0 100px;
+}
+
+.stream h1{
+    text-align: center;
+    font-size: 35px;
+    color: rgb(60,60,60);
+    font-family: Cambria;
+}
+
+.stream p{
+    font-family: verdana;
+    color: rgb(120,120,120);
+    text-align: justify;
+}
+
+.stream p::first-letter{
+    font-size: 65px;
+    color: rgb(20,200,200);
+}
+
+.stream-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0;
+}
+
+.stream-content-text{
+    width: 48%;
+    color: rgb(120,120,120);
+    font-family: verdana;
+    margin: 0px ;
+}
+
+.stream-content-text h3{
+    color: rgb(60,60,60);
+    font-family: cambria;
+    font-size: 25px;
+}
+
+.stream-content-text h2{
+    color: rgb(159, 28, 192);
+    font-family: cambria;
+    font-size: 28px;
+}
+
+.stream-content img{
+    width: 50%;
+    height: auto;
+}
+
+.coloured{
+    background: rgb(240,240,240);
+    padding: 100px 100px;
+}
+
+.foot{
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(20,200,200)
+}
+
+.foot-item{
+    width: 30%;
+    line-height: 2rem;
+    font-family: Cambria;
+}
+
+.foot-item h1{
+    font-size: 35px;
+}
+
+.foot-item ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.foot-item li a{
+    text-decoration: none;
+    color: rgb(20,200,200)
+}
+
+.soft-line{
+    width: 90%;
+    margin: 30px auto;
+    height: 2px;
+    border-radius: 20px;
+    background: rgb(220,220,220);
+}
+
+footer p{
+    font-size: 20px;
+    font-family: arial;
+    color: rgb(60,60,60);
+    text-align: center;
+    padding:10px;
+}
+
+footer a{
+    text-decoration: none;
+    color: rgb(20,200,200);
+}
+
+.hamburger{
+    display: none;
+    width: 30px;
+    height: auto;
+}
+
+.lne{
+    background: #ffffff;
+    height: 4px;
+    margin-top: 5px;
+}
+
+.l1{
+    width: 100%;
+}
+
+.l2{
+    width: 70%;
+}
+
+.l3{
+    width: 40%;
+}
+
+.highlight{
+    color: rgb(20,200,200);
+    text-shadow: 0 5px 10px rgba(0,0,0,0.3);
+}
+
+@media screen and (max-width:998px){
+    *{
+        box-sizing: border-box;
+    }
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        width: 75%;
+        background: rgb(60,60,60);
+        position: absolute;
+        top: 65px;
+        left: -100%;
+        box-shadow: 10px 20px 20px rgba(0,0,0,0.3);
+        padding: 100px 20px 200px;
+        transition: .7s ease-in-out;
+    }
+
+    .responsive ul{
+        left: 0;
+    }
+
+    nav ul li a{
+        font-size: 20px;
+    }
+
+    header{
+        justify-content: space-between;
+    }
+
+    header h1{
+        font-size: 25px;
+    }
+
+    header .hamburger{
+        display: block;
+    }
+
+    .welcomeNote{
+        width: 95%;
+    }
+
+    .welcomeNote p{
+        word-spacing: normal;
+    }
+
+    .target{
+        flex-direction: column;
+    }
+
+    .target-content{
+        width: 95%;
+    }
+
+    .target img{
+        width: 95%;
+    }
+
+    .target-content p{
+        word-spacing: normal;
+        line-height: normal;
+    }
+
+    .reverse{
+        flex-direction: column-reverse;
+    }
+
+    .reason-container{
+        width: 95%;
+    }
+
+    .reason-con{
+        flex-direction: column;
+    }
+
+    .reason-con img{
+        width: 95%;
+        margin-top: 20px;
+    }
+
+    .board{
+        width: 95%;
+    }
+
+    .board h1{
+        font-size: 24px;
+    }
+
+    .auth{
+        width: 90%;
+    }
+
+    .stream {
+        padding:0 20px;
+        margin-top: 20px;
+    }
+
+    .stream h1{
+        font-size: 25px;
+    }
+
+    .stream-content{
+        flex-direction: column;
+    }
+
+    .stream-content-text{
+        width: 95%;
+    }
+
+    .stream-content img{
+        width: 95%;
+    }
+
+    .coloured{
+        padding: 20px 0;
+    }
+
+    .foot{
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+    }
+
+    .foot-item{
+        width: 95%;
+        text-align: start;
+    }
+}
