@@ -398,7 +398,7 @@ footer a{
     text-shadow: 0 5px 10px rgba(0,0,0,0.3);
 }
 
-@media screen and (max-width:998px){
+@media screen and (max-width:798px){
     *{
         box-sizing: border-box;
     }
